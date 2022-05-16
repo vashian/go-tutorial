@@ -16,4 +16,10 @@ func main() {
 
 	fmt.Println(name, age)
 	fmt.Println(firstName, lastName)
+
+	// short declaration
+	safe := true
+	a, b := 1, 2
+
+	fmt.Println(safe,a,b)
 }
